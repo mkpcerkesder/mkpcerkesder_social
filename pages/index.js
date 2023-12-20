@@ -29,6 +29,10 @@ export default function Home() {
             <img src="instagram.png" alt="instagram" />
               @mkpcerkeskulturdernegi
           </a>
+          <a target="_blank" href="https://forms.gle/TuUgD1xuaHb6GcDWA">
+            <img src="form.png" alt="Dilek ve Öneri Formu" />
+              Dilek ve Öneri Formu
+          </a>
         </div>
       </main>
     </>

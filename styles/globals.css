@@ -91,6 +91,7 @@ footer > span:first-child {
 
   main {
     padding: 0 20px;
+    margin-top: 75px
   }
 
   header {
@@ -113,6 +114,7 @@ footer > span:first-child {
 
   .social-media-map {
     width: 100%;
+    margin-top: 20px;
   }
 
   .social-media-map iframe {

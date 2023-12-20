@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Mustafakemalpaşa Çerkes Kültür Derneği</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <style>
+            :root {
+                --main-green: #255c4a;
+            }
+
+            body {
+                font-family: 'Montserrat';
+                font-size: 22px;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                height: 120px;
+                background-color: var(--main-green);
+            }
+
+            header img {
+                width: 200px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 20px;
+            }
+
+            main {
+                margin-top: 75px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            main h1 {
+                font-size: 18px;
+            }
+
+            .social-media-list {
+                margin-top: 25px;
+            }
+
+            .social-media-list a {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                margin-bottom: 30px;
+                border-radius: 4px;
+                border: .5px solid #ddd;
+                text-decoration: none;
+                color: #333;
+                padding: 10px;
+                -webkit-box-shadow: 3px 3px 3px -5px rgba(0,0,0,0.75);
+                -moz-box-shadow: 3px 3px 3px -5px rgba(0,0,0,0.75);
+                box-shadow: 3px 3px 3px -5px rgba(0,0,0,0.75);
+            }
+
+            .social-media-list a > img {
+                width: 50px;
+                margin-right: 10px;
+            }
+
+           @media screen and (max-width: 768px) {
+                .social-media-list {
+                    width: 100%;
+                    font-size: 16px;
+                }
+
+                .social-media-list a {
+                    margin-bottom: 20px;
+                }
+
+                main {
+                    padding: 0 20px;
+                }
+
+                header {
+                    height: 100px;
+                }
+
+                header img {
+                    width: 150px;
+                    top: 25px;
+                }
+           } 
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="./logo.png" alt="Mustafakemalpaşa Çerkes Kültür Derneği">
+        </header>
+        <main>
+            <h1>Bizi Takip Edin</h1>
+            <div class="social-media-list">
+                <a target="_blank" href="https://www.facebook.com/mkpcer.der">
+                    <img src="./facebook.png" alt="facebook">
+                    @mkpcer.der
+                </a>
+                <a target="_blank" href="https://www.instagram.com/mkpcerkeskulturdernegi">
+                    <img src="./instagram.png" alt="instagram">
+                    @mkpcerkeskulturdernegi
+                </a>
+            </div>
+        </main>
+    </body>
+</html>

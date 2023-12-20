@@ -57,6 +57,28 @@ main h1 {
   margin-right: 10px;
 }
 
+.social-media-map {
+  margin: 50px 0;
+}
+
+.social-media-map iframe {
+  width: 750px;
+}
+
+footer {
+  padding: 10px;
+  background-color: var(--main-green);
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > span:first-child {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .social-media-list {
     width: 100%;
@@ -78,5 +100,22 @@ main h1 {
   header img {
     width: 150px;
     top: 25px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  footer span:first-child {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .social-media-map {
+    width: 100%;
+  }
+
+  .social-media-map iframe {
+    width: 100%;
   }
 }
